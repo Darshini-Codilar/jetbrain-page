@@ -1,0 +1,559 @@
+:root{
+  --wt-color-white:#fff;
+  --wt-color-white-60:hsla(0,0%,100%,0.6);
+  --wt-color-white-30:hsla(0,0%,100%,0.3);
+  --wt-color-white-20:hsla(0,0%,100%,0.2);
+  --wt-color-white-10:hsla(0,0%,100%,0.1);
+  --wt-color-white-5:hsla(0,0%,100%,0.05);
+  --wt-color-dark:#27282c;
+  --wt-color-dark-70:rgba(39,40,44,0.7);
+  --wt-color-dark-40:rgba(39,40,44,0.4);
+  --wt-color-dark-20:rgba(39,40,44,0.2);
+  --wt-color-dark-5:rgba(39,40,44,0.05);
+  --wt-color-grey:#3c3d40;
+  --wt-color-grey-light:#f4f4f4;
+  --wt-color-grey-dark:#323236;
+  --wt-color-primary-light-theme:#167dff;
+  --wt-color-primary-light-theme-80:rgba(22,125,255,0.8);
+  --wt-color-primary-light-theme-20:rgba(22,125,255,0.2);
+  --wt-color-primary-dark-theme:#4ca6ff;
+  --wt-color-primary-dark-theme-80:rgba(76,166,255,0.8);
+  --wt-color-primary-dark-theme-20:rgba(76,166,255,0.2);
+  --wt-color-error:#ef341e;--wt-color-success:#4dbb5f;
+  --wt-color-warning:#f3c033;
+}
+
+:root{
+--softBlue: #5368df;
+  --softRed: #fa5757;
+  --veryDarkBlue: #252b46;  
+  --lightGRay: #e5e5e5;
+}
+
+<div class="page__content ">
+        <main>
+    <section class="wt-section wt-section_bg_dark section-pb-0">
+        <div class="wt-container wt-offset-top-48 tools-section">
+            <div class="wt-row wt-row_size_m">
+                <div class="wt-col-8 wt-col-lg-9 wt-col-sm-12">
+                    <h1 class="wt-h1 wt-h1_theme_dark home-page__title wt-offset-top-24 wt-offset-top-md-0">Essential tools for software developers and teams</h1>
+                    <p class="wt-subtitle-2 wt-subtitle-2_theme_dark wt-offset-top-12">We build our software so you can enjoy building yours</p>
+                </div>  
+            </div>
+            <div class="wt-row wt-row_size_m wt-row_justify_between">
+                <h2 class="visually-hidden">Tools</h2>
+                <div class="wt-col-3 wt-col-md-6 wt-col-sm-12 jb-vertical-flex product-card">
+                    <div class="jb-vertical-flex__grow">
+                        <div>
+                            <svg aria-hidden="true" class="_develop_white sprite-img product-card__icon product-card__icon_develop" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#develop_white"></use></svg>
+                            <h3 class="wt-h3 wt-h3_theme_dark product-card__title">Developer Tools</h3>
+                        </div>
+                        <p class="wt-text-1 wt-text-1_theme_dark product-card__text">
+                            The complete
+                            <br class="wt-display-md-none">
+                            developer toolkit
+                        </p>
+                        <p class="wt-text-1"><a class="wt-link wt-link_theme_dark" href="https://www.jetbrains.com/products.html#type=ide">Choose your tool</a></p>
+                    </div>
+                </div>
+                <div class="wt-col-3 wt-col-md-6 wt-col-sm-12 jb-vertical-flex product-card">
+                    <div class="jb-vertical-flex__grow">
+                        <div>
+                            <svg aria-hidden="true" class="_team_white sprite-img product-card__icon" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#team_white"></use></svg>
+                            <h3 class="wt-h3 wt-h3_theme_dark product-card__title">Team Tools</h3>
+                        </div>
+                        <p class="wt-text-1 wt-text-1_theme_dark product-card__text">A wide range of tools and integrations for any team</p>
+                        <p class="wt-text-1"><a class="wt-link wt-link_theme_dark" href="https://www.jetbrains.com/products.html#type=team">See all tools</a></p>
+                    </div>
+                </div>
+                <div class="wt-col-3 wt-col-md-6 wt-col-sm-12 jb-vertical-flex product-card">
+                    <div class="jb-vertical-flex__grow">
+                        <div>
+                            <svg aria-hidden="true" class="_learn_white sprite-img product-card__icon" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#learn_white"></use></svg>
+                            <h3 class=
+                            .header_menu{
+                                padding: 5rem 19rem;
+                                padding-top: 0;
+                                display: flex;
+                            }
+                            
+                            .jb_logo{
+                                width: 4.5rem;
+                                height: auto;
+                                /* display: flex; */
+                                /* height: 4.5rem; */
+                            }
+                            
+                            .jb_logo img{
+                                width: 100%;
+                            }
+                            
+                            .menu_item{
+                                /* display: flex; */
+                                 width: 70%;
+                                margin: 1.5rem auto 0 17rem;
+                                justify-content: space-between;
+                            }
+                            
+                            .menu_item ul {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    list-style: none;
+                                    width: 55rem;
+                            } 
+                                  
+                            .menu_item li a{			 
+                                            text-decoration: none;
+                                            font-size: 1.2rem;
+                                            color: var(--grayishBlue);
+                                            transition: 0.2s ease;
+                                            font-weight: 400;
+                                            
+                            }
+                            
+                            .menu_item li a:hover{
+                                            color: white; 
+                                            cursor: pointer;
+                            }
+                            
+                            .search_menu{
+                                width: 1.4rem;
+                                height: auto;
+                            }
+                            
+                            .search_menu img{
+                                width: 100%;
+                            }
+                            
+                            .contact_cart{
+                                display: flex;
+                            }
+                            
+                            /* .cart_menu img{
+                                padding-left: 1rem;
+                            }
+                            
+                            .language_menu{
+                                padding-left: 1rem;
+                            } */
+                            
+                            .contact_menu{
+                                width: 1.3rem;
+                                height: auto;
+                            }
+                            
+                            .contact_menu img{
+                                width: 100%;
+                            }
+                            
+                            .cart_menu{
+                                width: 2.6rem;
+                                height: auto;
+                                padding-left: 1.2rem;
+                            }
+                            
+                            .cart_menu img{
+                                width: 100%;
+                            }
+                            
+                            .language_menu{
+                                width: 2.45rem;
+                                height: auto;
+                                padding-left: 1.2rem;
+                            }
+                            
+                            .language_menu img{
+                                width: 100%;
+                            }
+                            
+                            .header_text{
+                                padding: 0.5rem 19rem;
+                            }
+                            
+                            .title_text .title_1{
+                                color: white;
+                                letter-spacing: -.001em;
+                                width: 55rem;
+                                font-size: 2.8rem;
+                            }
+                            
+                            .title_text .title_2{
+                                color: white;
+                                font-family:"JetBrains Sans",Inter,system-ui,-"wt-h3 wt-h3_theme_dark product-card__title">Learning Tools</h3>
+                        </div>
+                        <p class="wt-text-1 wt-text-1_theme_dark product-card__text">Solutions and opportunities for&nbsp;teachers and students</p>
+                        <p class="wt-text-1"><a class="wt-link wt-link_theme_dark" href="https://www.jetbrains.com/education/">Find your solution</a></p>
+                    </div>
+                </div>
+                <div class="wt-col-3 wt-col-md-6 wt-col-sm-12 jb-vertical-flex product-card">
+                    <div class="jb-vertical-flex__grow">
+                        <div>
+                            <svg aria-hidden="true" class="_kotlin_white sprite-img product-card__icon product-card__icon_kotlin" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#kotlin_white"></use></svg>
+                            <h3 class="wt-h3 wt-h3_theme_dark product-card__title">Kotlin</h3>
+                        </div>
+                        <p class="wt-text-1 wt-text-1_theme_dark product-card__text">A modern multiplatform programming language</p>
+                        <p class="wt-text-1"><a class="wt-link wt-link_theme_dark" href="https://kotlinlang.org/">Discover Kotlin</a></p>
+                    </div>
+                </div>
+            </div>
+            <div id="banner-tiles"><div class="wt-offset-top-48 wt-row wt-row_size_s"><div class="flex-container wt-col-8 wt-col-md-12"><a href="https://www.jetbrains.com/remote-development/" class="banner-tile banner-tile_primary tile-content wt-row wt-row_size_0" data-gtm="link-banner" data-gtm-vis-first-on-screen-58776_2732="416" data-gtm-vis-total-visible-time-58776_2732="100" data-gtm-vis-has-fired-58776_2732="1" data-gtm-vis-first-on-screen-58776_2672="420" data-gtm-vis-total-visible-time-58776_2672="100" data-gtm-vis-has-fired-58776_2672="1"><div class="jb-vertical-flex__grow" style="width: 100%;"><div class="wt-row wt-row_size_0"><div class="wt-col-10 wt-col-md-7 wt-col-sm-11 wt-hero wt-hero_theme_dark">Remote Development</div></div><div class="wt-row wt-row_size_0 wt-offset-top-24"><div class="wt-col-9 wt-col-lg-12 wt-subtitle-2 wt-subtitle-2_theme_dark">Connect to remote dev environments from anywhere in seconds</div></div><div class="wt-row wt-row_size_0 wt-offset-top-24"><div class="wt-col-6 wt-col-lg-7 wt-col-sm-12 wt-text-1 wt-text-1_hardness_hard wt-text-1_theme_dark">Tap into the CPU power of a&nbsp;remote machine from your laptop</div></div></div><button data-test="button" aria-label="Learn more" type="button" class="_wt-button_1df2673_1 _wt-button_mode_contrast_1df2673_259 _wt-button_size_m_1df2673_96 _wt-button_theme_dark_1df2673_81 wt-button_align-icon_left wt-offset-top-24">Learn More</button></a></div><div class="flex-container wt-col-4 wt-col-md-12"><div class="flex-container__grow wt-row wt-row_size_s"><div class="flex-container wt-col-12 wt-col-md-6 wt-col-sm-12"><a href="https://lp.jetbrains.com/academy/for-organizations/" class="wt-offset-top-md-24 banner-tile banner-tile_secondary banner-tile_academy tile-content" data-gtm="link-banner" data-gtm-vis-first-on-screen-58776_2732="418" data-gtm-vis-total-visible-time-58776_2732="100" data-gtm-vis-has-fired-58776_2732="1" data-gtm-vis-first-on-screen-58776_2672="427" data-gtm-vis-total-visible-time-58776_2672="100" data-gtm-vis-has-fired-58776_2672="1"><div class="jb-vertical-flex__grow" style="width: 100%;"><svg viewBox="0 0 72 72" class="logo_secondary"><use href="#academy-logo"></use></svg><h3 class="wt-offset-top-12 wt-h3 wt-h3_theme_dark">JetBrains Academy for Organizations</h3><p class="wt-offset-top-12 jb-vertical-flex__grow wt-text-2 wt-text-2_hardness_hard wt-text-2_theme_dark">Hands-on programming education in the hands of your team.</p></div><button data-test="button" type="button" class="_wt-button_1df2673_1 _wt-button_mode_outline_1df2673_393 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 wt-button_align-icon_left wt-offset-top-12">Learn more</button></a></div><div class="flex-container wt-col-12 wt-col-md-6 wt-col-sm-12"><a href="https://www.jetbrains.com/space/" class="wt-offset-top-12 wt-offset-top-md-24 banner-tile banner-tile_secondary banner-tile_space tile-content" data-gtm="link-banner"><svg viewBox="0 0 273 75" fill="white" class="logo_secondary"><lineargradient id="space-text_svg__a" gradientTransform="matrix(1 0 0 -1 0 -104)" gradientUnits="userSpaceOnUse" x1="33.813" x2="41.643" y1="-102.99" y2="-177.21"><stop offset="0" stop-color="#fcf84a"></stop><stop offset="0.32" stop-color="#abe682"></stop><stop offset="0.79" stop-color="#36cdd2"></stop><stop offset="1" stop-color="#07c3f2"></stop></lineargradient><lineargradient id="space-text_svg__b" gradientTransform="matrix(1 0 0 -1 0 -104)" gradientUnits="userSpaceOnUse" x1="5.095" x2="75.305" y1="-104.136" y2="-137.446"><stop offset="0" stop-color="#3bea62"></stop><stop offset="1" stop-color="#087cfa"></stop></lineargradient><lineargradient id="space-text_svg__c" gradientTransform="matrix(1 0 0 -1 0 -104)" gradientUnits="userSpaceOnUse" x1="11.52" x2="82.22" y1="-176.65" y2="-127.17"><stop offset="0" stop-color="#009ae5"></stop><stop offset="0.18" stop-color="#0490dd"></stop><stop offset="0.49" stop-color="#1073c6"></stop><stop offset="0.89" stop-color="#2346a1"></stop><stop offset="1" stop-color="#293896"></stop></lineargradient><path d="m89.66265 50.28 5.74-7c4 3.32 8.14 5.43 13.19 5.43 4 0 6.37-1.6 6.37-4.22v-.09c0-2.49-1.52-3.77-8.9-5.69-8.89-2.3-14.63-4.79-14.63-13.67v-.13c0-8.11 6.43-13.48 15.45-13.48a25.3 25.3 0 0 1 16.4 5.69l-5 7.41c-3.91-2.75-7.76-4.41-11.48-4.41s-5.68 1.72-5.68 3.9v.12c0 2.94 1.89 3.9 9.52 5.88 9 2.37 14 5.63 14 13.42v.13c0 8.88-6.69 13.87-16.21 13.87a27.91 27.91 0 0 1 -18.74-7.16"></path><path d="m156.40264 39.74v-.13c0-5.69-3.78-9.46-8.26-9.46s-8.2 3.77-8.2 9.46v.13c0 5.68 3.72 9.45 8.2 9.45s8.26-3.7 8.26-9.45m-25.93-17.19h9.59v4.92a12.37 12.37 0 0 1 10.54-5.56c7.88 0 15.39 6.26 15.39 17.7v.13c0 11.44-7.38 17.7-15.39 17.7a13 13 0 0 1 -10.54-5.11v14.67h-9.59z"></path><path d="m191.47264 44.72v-1.72a14.64 14.64 0 0 0 -6.12-1.28c-4.1 0-6.62 1.66-6.62 4.73v.12c0 2.62 2.14 4.16 5.23 4.16 4.48 0 7.51-2.49 7.51-6m-22.01 2.27v-.13c0-7.48 5.61-10.93 13.62-10.93a23.69 23.69 0 0 1 8.26 1.41v-.58c0-4-2.46-6.26-7.25-6.26a24.56007 24.56007 0 0 0 -9.33 1.85l-2.4-7.41a29.52 29.52 0 0 1 13.12-2.75c5.23 0 9 1.41 11.42 3.84s3.65 6.32 3.65 10.93v19.83h-9.27v-3.71a12.92 12.92 0 0 1 -10.22 4.35c-6.37 0-11.6-3.71-11.6-10.48"></path><path d="m205.60265 39.86v-.12a17.47 17.47 0 0 1 17.10426-17.82824q.31281-.00649.62573-.00176c6.37 0 10.34 2.17 13.49 5.75l-5.86 6.39c-2.15-2.3-4.29-3.77-7.7-3.77-4.79 0-8.2 4.28-8.2 9.33v.13c0 5.24 3.35 9.45 8.58 9.45 3.22 0 5.43-1.4 7.76-3.64l5.61 5.75c-3.28 3.65-7.06 6.27-13.81 6.27a17.38 17.38 0 0 1 -17.60173-17.1554q-.00357-.27729.00173-.55459"></path><path d="m262.94263 37c-.57-4.35-3.09-7.29-7.13-7.29s-6.56 2.88-7.32 7.29zm-23.84 2.87v-.12c0-9.78 6.87-17.83 16.71-17.83 11.29 0 16.47 8.88 16.47 18.59 0 .77-.07 1.67-.13 2.56h-23.53a7.88335 7.88335 0 0 0 8.26 6.71c3.22 0 5.55-1 8.2-3.52l5.49 4.93a16.80994 16.80994 0 0 1 -13.81 6.39c-10.16 0-17.66-7.23-17.66-17.71"></path><g fill-rule="evenodd"><path d="m13.58264 75a75 75 0 0 0 61.42-43 75 75 0 0 0 -61.42-32q-3.27 0-6.57.29a75 75 0 0 0 6.57 74.71z" fill="url(#space-text_svg__a)"></path><path d="m7.09264.3a88.30006 88.30006 0 0 1 39.46 31.7h28.45a74.76 74.76 0 0 0 -61.35-32q-3.27 0-6.56.3z" fill="url(#space-text_svg__b)"></path><path d="m46.55264 32c-3.43 22.67-33 43-33 43 26.89-2.54 50.46-18.64 61.45-43z" fill="url(#space-text_svg__c)"></path></g></svg><h3 class="wt-offset-top-12 wt-h3 wt-h3_theme_dark">All-in-One Solution for Software Teams</h3><p class="wt-offset-top-12 jb-vertical-flex__grow wt-text-2 wt-text-2_hardness_hard wt-text-2_theme_dark">Get a complete toolchain to&nbsp;develop software and collaborate with your team.</p><button data-test="button" aria-label="Learn more" type="button" class="_wt-button_1df2673_1 _wt-button_mode_outline_1df2673_393 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 wt-button_align-icon_left wt-offset-top-12">Learn more</button></a></div></div></div></div></div>
+        </div>
+        <div class="wt-section">
+            <div class="wt-container">
+                <div class="wt-row wt-row_size_m wt-row_justify_between">
+                    <div class="wt-col-9 wt-col-sm-12 wt-offset-top-96">
+                        <p class="wt-subtitle-2">
+                            However big or small your team is, our products will ensure that it always has a smooth
+                            and enjoyable experience when
+                            <a class="wt-link" href="https://www.jetbrains.com/products/#type=ci-cd">building and shipping your code</a>,
+                            <a class="wt-link" href="https://www.jetbrains.com/products/#type=pm">planning your work</a>,
+                            and
+                            <a class="wt-link" href="https://www.jetbrains.com/products/#type=code-review">collaborating</a>.
+                        </p>
+                        <p class="wt-subtitle-2 wt-offset-top-24">Whatever platform or language you work with, JetBrains has a development tool for you.</p>
+                    </div>
+                    <div class="wt-col-9 wt-col-sm-12 wt-offset-top-12">
+                        <ul class="wt-row wt-row_size_s" role="list">
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=js" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">JavaScript</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#tech=dotnet" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">.NET</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=java" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">Java &amp; JVM</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=cpp" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">C++</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#tech=ios" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">macOS &amp; iOS</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=python" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">Python &amp; Django</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=php-lang" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">PHP</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=ruby" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">Ruby &amp; Rails</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=go" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">Go</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=kotlin" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">Kotlin</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/#lang=sql" class="wt-col-inline wt-tag wt-tag_theme_light wt-tag_size_m wt-tag_clickable wt-offset-top-12">SQL</a>
+                            </li>
+                            <li>
+                                <a href="https://www.jetbrains.com/products/" class="wt-col-inline wt-button wt-button_size_m wt-button_mode_primary wt-offset-top-12">See all tools</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="blog-posts"><section class="wt-section wt-section_bg_gray-light wt-section_theme_light"><div class="wt-container wt-offset-top-96"><h2 class="wt-h2">News &amp; events</h2><div class="wt-row wt-row_size_l"><div class="wt-col-4 wt-col-md-6 wt-col-sm-12 jb-vertical-flex wt-offset-top-48"><div class="jb-vertical-flex__grow"><p class="wt-text-2"><time>Jan 20, 2022</time></p><h3 class="wt-h3 wt-offset-top-12" id="blog-post-0">JetBrains Academy: Looking Back at 2021</h3><p class="wt-text-2 blog-post__description wt-offset-top-12"><span>We decided to take a step back, remind ourselves about the amazing things that happened last year, and prepare for the new adventures ahead. Will you join us?</span></p><p class="wt-text-2 wt-offset-top-12"><a class="wt-link" href="https://blog.jetbrains.com/education/2022/01/20/jetbrains-academy-looking-back-at-2021/" aria-labelledby="blog-post-link-0 blog-post-0" id="blog-post-link-0">Learn more</a></p></div></div><div class="wt-col-4 wt-col-md-6 wt-col-sm-12 jb-vertical-flex wt-offset-top-48"><div class="jb-vertical-flex__grow"><p class="wt-text-2"><time>Jan 5, 2022</time></p><h3 class="wt-h3 wt-offset-top-12" id="blog-post-1">Once a Developer, Always a Developer</h3><p class="wt-text-2 blog-post__description wt-offset-top-12"><span>Alina Komissarova, Coordinator of JetBrains Educational Projects who is based in Novosibirsk, Russia, interviewed her fellow Siberian Tagir Valeev, Java Tech Lead in IntelliJ IDEA. They talked about what life and work are like for someone who feels the never-ceasing drive to develop, share his knowledge, and learn Japanese.</span></p><p class="wt-text-2 wt-offset-top-12"><a class="wt-link" href="https://blog.jetbrains.com/team/2022/01/05/once-a-developer-always-a-developer/" aria-labelledby="blog-post-link-1 blog-post-1" id="blog-post-link-1">Learn more</a></p></div></div><div class="wt-col-4 wt-col-md-6 wt-col-sm-12 jb-vertical-flex wt-offset-top-48"><div class="jb-vertical-flex__grow"><p class="wt-text-2"><time>Jan 4, 2022</time></p><h3 class="wt-h3 wt-offset-top-12" id="blog-post-2">Java Annotated Monthly – January 2022</h3><p class="wt-text-2 blog-post__description wt-offset-top-12"><span>
+Welcome to the January edition of our monthly collection of JVM-related news! This is my first Java Annotated Monthly; I’m taking over this project from Irina and Trisha – if I can see a little further, it is because I’m standing on the shoulders of giants 😊.
+
+
+
+Greetings to long-time and first-time readers alike! Get cozy and let me take you on a tour of the latest news from the JVM community. I hope you come away from this with renewed inspiration for the start of 2022.
+
+
+
+
+
+
+
+Java News
+
+
+
+JDK 18 Rampdown Phase One – You can take a short scroll through the version’s nine new f</span></p><p class="wt-text-2 wt-offset-top-12"><a class="wt-link" href="https://blog.jetbrains.com/idea/2022/01/java-annotated-monthly-january-2022/" aria-labelledby="blog-post-link-2 blog-post-2" id="blog-post-link-2">Learn more</a></p></div></div></div></div></section></div>
+
+    <section class="wt-section wt-section_bg_dark wt-section_theme_dark trusted-section">
+        <div class="wt-container wt-offset-top-96">
+            <h2 class="wt-h1 wt-h1_theme_dark">Trusted</h2>
+            <div class="wt-row wt-row_size_m">
+                <div class="wt-col-7 wt-col-lg-9 wt-col-md-10 wt-col-sm-12 wt-offset-top-24">
+                    <p class="wt-subtitle-2 wt-subtitle-2_theme_dark">Many of the world's most dynamic companies and individuals find JetBrains tools make them more creative and effective.</p>
+                </div>
+                <div class="wt-col-4 wt-col-lg-7 wt-col-md-8 wt-col-sm-12 wt-offset-left-1 wt-offset-left-lg-0">
+                    <div class="wt-row wt-row_size_m">
+                        <div class="wt-col-inline wt-offset-top-24">
+                            <p class="wt-digits wt-digits_theme_dark">10M+</p>
+                            <p class="wt-text-2 wt-text-2_theme_dark wt-text-2_hardness_hard">users trust our tools </p>
+                        </div>
+                        <div class="wt-col-inline wt-offset-top-24">
+                            <p class="wt-digits wt-digits_theme_dark">96K</p>
+                            <p class="wt-text-2 wt-text-2_theme_dark wt-text-2_hardness_hard">join every month</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="carousel-testimonials"><section class="section-testimonials"><div role="group" aria-label="What Developers Say About Us" aria-roledescription="carousel" aria-atomic="false" aria-live="polite" class="wt-container"><div class="wt-carousel wt-carousel_theme_light carousel-testimonials-wrapper" data-test="carousel"><div class="_wt-carousel__swipeable-view-wrapper_1vdhp6b_4"><div class="_wt-carousel__swipeable-view_1vdhp6b_1" style="overflow-x: hidden;"><div class="react-swipeable-view-container" style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform; transform: translate(0%, 0px);"><div aria-hidden="false" data-swipeable="true" style="width: 100%; flex-shrink: 0; overflow: auto;"><div class="wt-row wt-row_size_0 wt-row_align-items_center carousel-testimonials" role="group" aria-roledescription="slide" aria-live="polite"><div class="wt-col-4 wt-col-md-5 carousel-testimonials__image"><img src="./JetBrains_ Essential tools for software developers and teams_files/Mary-Grygleski@2x.png" width="100%" alt="Mary Grygleski" loading="lazy"></div><div class="wt-col-auto-fill jb-vertical-flex"><div class="jb-vertical-flex__grow"><p class="wt-subtitle-2 wt-subtitle-2_theme_dark wt-offset-top-12">IntelliJ IDEA is undoubtedly the top-choice IDE for software developers.</p></div><p class="wt-h3 wt-h3_theme_dark wt-offset-top-48 wt-offset-top-lg-24">Mary Grygleski</p><p class="wt-text-2 wt-text-2_theme_dark">IBM</p><div class="wt-offset-top-12"></div></div></div></div><div aria-hidden="true" data-swipeable="true" style="width: 100%; flex-shrink: 0; overflow: auto;"><div class="wt-row wt-row_size_0 wt-row_align-items_center carousel-testimonials" role="group" aria-roledescription="slide" aria-live="polite"><div class="wt-col-4 wt-col-md-5 carousel-testimonials__image"><img src="./JetBrains_ Essential tools for software developers and teams_files/Frans-Bouma@2x.png" width="100%" alt="Frans Bouma" loading="lazy"></div><div class="wt-col-auto-fill jb-vertical-flex"><div class="jb-vertical-flex__grow"><p class="wt-subtitle-2 wt-subtitle-2_theme_dark wt-offset-top-12">In Rider, I just focus on working with my code, as it should be, instead of fighting my IDE. Rider gave me back the joy in writing .NET code.</p></div><p class="wt-h3 wt-h3_theme_dark wt-offset-top-48 wt-offset-top-lg-24">Frans Bouma</p><p class="wt-text-2 wt-text-2_theme_dark">LLBLGen Pro</p><div class="wt-offset-top-12"></div></div></div></div><div aria-hidden="true" data-swipeable="true" style="width: 100%; flex-shrink: 0; overflow: auto;"><div class="wt-row wt-row_size_0 wt-row_align-items_center carousel-testimonials" role="group" aria-roledescription="slide" aria-live="polite"><div class="wt-col-4 wt-col-md-5 carousel-testimonials__image"><img src="./JetBrains_ Essential tools for software developers and teams_files/Marvin-Burman@2x.png" width="100%" alt="Marvin Burman" loading="lazy"></div><div class="wt-col-auto-fill jb-vertical-flex"><div class="jb-vertical-flex__grow"><p class="wt-subtitle-2 wt-subtitle-2_theme_dark wt-offset-top-12">YouTrack is a very stable and consistent product. We value its rich functionality, speed and efficiency.</p></div><p class="wt-h3 wt-h3_theme_dark wt-offset-top-48 wt-offset-top-lg-24">Marvin Burman</p><p class="wt-text-2 wt-text-2_theme_dark">testhub.com</p><div class="wt-offset-top-12"></div></div></div></div></div></div></div><div class="_wt-carousel__footer_1vdhp6b_7"><div class="_wt-carousel__spacer_1vdhp6b_14"></div><nav class="_wt-carousel__nav_1vdhp6b_19"><button data-test="prev-button" type="button" disabled="" class="_wt-button_1df2673_1 _wt-button_disabled_1df2673_80 _wt-button_mode_nude_1df2673_533 _wt-button_size_m_1df2673_96 _wt-button_theme_light_1df2673_77 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m _wt-button__icon_1df2673_609"><path d="M2 11.857L10 5v5.857h11v2H10v5.857l-8-6.857z"></path></svg></button><span class="_wt-carousel__nav-text_1vdhp6b_27">1/3</span><button data-test="next-button" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_m_1df2673_96 _wt-button_theme_light_1df2673_77 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m _wt-button__icon_1df2673_609"><path d="M21 12l-8-6.857V11H2v2h11v5.857L21 12z"></path></svg></button></nav></div></div><a data-test="button" href="https://www.jetbrains.com/company/customers/testimonials.html" type="button" class="_wt-button_1df2673_1 _wt-button_mode_outline_1df2673_393 _wt-button_size_m_1df2673_96 _wt-button_theme_light_1df2673_77 wt-button_align-icon_left carousel-testimonials__button">More testimonials</a></div></section></div>
+
+    <div class="wt-section wt-offset-top-sm-96">
+        <div class="wt-container">
+            <div class="wt-row wt-row_size_m">
+                <div class="wt-col-6 wt-col-lg-9 wt-col-md-10 wt-col-sm-12">
+                    <p class="wt-subtitle-2" id="usersListTitle">Our tools are used all over the world in some of the best-known companies.</p>
+                </div>
+            </div>
+            <ul role="list" class="wt-row wt-row_size_m wt-row_align-items_center wt-row_justify_between wt-row_wide wt-row_nowrap wt-row-sm_wrap">
+                <li class="wt-col-inline wt-col-sm-6">
+                    <span class="visually-hidden">Google</span>
+                    <svg aria-hidden="true" class="_google sprite-img customers-list__logo" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#google"></use></svg>
+                </li>
+                <li class="wt-col-inline wt-col-sm-6">
+                    <span class="visually-hidden">NASA</span>
+                    <svg aria-hidden="true" class="_nasa sprite-img customers-list__logo" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#nasa"></use></svg>
+                </li>
+                <li class="wt-col-inline wt-col-sm-6">
+                    <span class="visually-hidden">Valve</span>
+                    <svg aria-hidden="true" class="_valve sprite-img customers-list__logo" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#valve"></use></svg>
+                </li>
+                <li class="wt-col-inline wt-col-sm-6">
+                    <span class="visually-hidden">Netflix</span>
+                    <svg aria-hidden="true" class="_netflix sprite-img customers-list__logo" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#netflix"></use></svg>
+                </li>
+                <li class="wt-col-inline wt-col-sm-6">
+                    <span class="visually-hidden">Ubisoft</span>
+                    <svg aria-hidden="true" class="_ubisoft sprite-img customers-list__logo" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#ubisoft"></use></svg>
+                </li>
+                <li class="wt-col-inline wt-col-sm-6">
+                    <span class="visually-hidden">Twitter</span>
+                    <svg aria-hidden="true" class="_twitter sprite-img customers-list__logo" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#twitter"></use></svg>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="wt-section wt-offset-top-sm-48">
+        <div class="wt-container">
+            <h2 class="wt-h1">Customer Stories</h2>
+            <div class="wt-row wt-row_size_m wt-offset-top-24">
+                <div class="wt-col-6 wt-col-lg-9 wt-col-md-11 wt-col-sm-12">
+                    <p class="wt-subtitle-2">See how the world's leading companies use JetBrains products</p>
+                </div>
+            </div>
+            <div class="wt-row wt-row_size_m">
+                <a class="wt-col-4 wt-col-md-6 wt-col-sm-12 wt-card wt-card_link wt-card_theme_light wt-offset-top-24" href="https://www.jetbrains.com/company/customers/experience/openstack/">
+                    <div class="wt-card__section jb-vertical-flex">
+                        <div class="jb-vertical-flex__grow">
+                            <h3 class="wt-h3">OpenStack</h3>
+                            <p class="wt-text-2 wt-text-2_hardness_hard wt-offset-top-24">PyCharm has tons of advantages when compared to text editors in terms of supported functionality. With respect to Python development, PyCharm definitely stands out with features like remote debugging, code quality checks, and integrations with third-party software like Docker and Kubernetes.</p>
+                            <p class="wt-text-2 wt-offset-top-12">Swapnil Kulkarni, Active Technology Contributor, OpenStack</p>
+                        </div>
+                        <p class="wt-text-2 wt-link wt-offset-top-12">Read case study</p>
+                    </div>
+                </a>
+                <a class="wt-col-4 wt-col-md-6 wt-col-sm-12 wt-card wt-card_link wt-card_theme_light wt-offset-top-24" href="https://www.jetbrains.com/company/customers/experience/instil/">
+                    <div class="wt-card__section jb-vertical-flex">
+                        <div class="jb-vertical-flex__grow">
+                            <h3 class="wt-h3">Instil</h3>
+                            <p class="wt-text-2 wt-text-2_hardness_hard wt-offset-top-24">When the social distancing restrictions were introduced in March 2020, we needed a tool that would let us collaborate online with students as part of virtual deliveries, and Space was the obvious choice.</p>
+                            <p class="wt-text-2 wt-offset-top-12">Garth Gilmour, Instil</p>
+                        </div>
+                        <p class="wt-text-2 wt-link wt-offset-top-12">Read case study</p>
+                    </div>
+                </a>
+                <a class="wt-col-4 wt-col-md-6 wt-col-sm-12 wt-card wt-card_link wt-card_theme_light wt-offset-top-24" href="https://kotlinlang.org/lp/mobile/case-studies/vmware/">
+                    <div class="wt-card__section jb-vertical-flex">
+                        <div class="jb-vertical-flex__grow">
+                            <h3 class="wt-h3">VMware</h3>
+                            <p class="wt-text-2 wt-text-2_hardness_hard wt-offset-top-24">As our team carefully weighed the benefits and shortcomings of building our strategy upon each of the frameworks, Kotlin Multiplatform Mobile ultimately emerged as the framework of choice.</p>
+                            <p class="wt-text-2 wt-offset-top-12">Kris Wong, Software Engineer/Architect, VMware</p>
+                        </div>
+                        <p class="wt-text-2 wt-link wt-offset-top-12">Read case study</p>
+                    </div>
+                </a>
+            </div>
+            <a class="wt-button wt-button_theme_light wt-button_size_m wt-button_mode_outline wt-offset-top-24" href="https://www.jetbrains.com/company/customers/experience/">More case studies</a>
+        </div>
+    </section>
+
+    <section class="wt-section wt-section_bg_gray-light">
+        <div class="wt-container">
+            <h2 class="wt-h1 wt-offset-top-96">Discover more</h2>
+            <div class="wt-row wt-row_size_m">
+                <div class="wt-col-4 wt-col-lg-6 wt-col-sm-12 wt-offset-top-48">
+                    <div class="banner-card">
+                        <div class="banner-card__icon">
+                            <img src="./JetBrains_ Essential tools for software developers and teams_files/banner_home-play_black.svg" alt="Play video icon" loading="lazy">
+                        </div>
+                        <h3 class="wt-h3 wt-offset-top-24">Software development the&nbsp;JetBrains&nbsp;way: dogfooding</h3>
+                        <p class="wt-text-2 wt-offset-top-12 banner-card__text">Giving you the scoop on how your favorite products are created</p>
+                        <p class="wt-offset-top-12">
+                            <a class="wt-link js-popup fs-lightbox-element" href="https://youtu.be/afZnpMZJa4A">Watch Now</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="wt-col-4 wt-col-lg-6 wt-col-sm-12 wt-offset-top-48">
+                    <div class="banner-card">
+                        <div class="banner-card__icon">
+                            <img src="./JetBrains_ Essential tools for software developers and teams_files/annual-highlights-icon.svg" alt="Annual Highlights 2020/21 icon" loading="lazy">
+                        </div>
+                        <h3 class="wt-h3 wt-offset-top-24">JetBrains 2020/21 Annual&nbsp;Highlights</h3>
+                        <p class="wt-text-2 wt-offset-top-12 banner-card__text">Find out why more than 10 million developers use and trust our tools</p>
+                        <p class="wt-offset-top-12">
+                            <a class="wt-link" href="https://www.jetbrains.com/lp/annualreport-2020/">Read Now</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="wt-col-4 wt-col-lg-6 wt-col-sm-12 wt-offset-top-48">
+                    <div class="banner-card">
+                        <div class="banner-card__icon">
+                            <img src="./JetBrains_ Essential tools for software developers and teams_files/banner_home-survey.svg" alt="DevEcosystem 2021 icon" loading="lazy">
+                        </div>
+                        <h3 class="wt-h3 wt-offset-top-24">The State of Developer Ecosystem 2021</h3>
+                        <p class="wt-text-2 wt-offset-top-12 banner-card__text">Developer community trends in JetBrains' fifth annual survey results</p>
+                        <p class="wt-offset-top-12">
+                            <a class="wt-link" href="https://www.jetbrains.com/lp/devecosystem-2021/">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    </div>
+
+            <div class="page__footer" id="footer-container"><footer class="wt-footer wt-footer_mode_full wt-footer_theme_dark jb-footer" data-test="footer" data-e2e="footer"><div class="wt-container"><div class="wt-footer__top wt-footer__top_theme_dark"><ul class="jb-footer-catalog wt-row wt-row_size_m"><li class="jb-footer-catalog__item wt-offset-top-48 wt-col-2 wt-col-md-4 wt-col-sm-6"><h2 class="jb-footer-catalog__item-title wt-text-3 wt-text-3_hardness_hard wt-text-3_theme_dark">Products</h2><ul class="wt-offset-top-12 jb-footer-catalog-links"><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/products/#type=ide" class="wt-link wt-link_hardness_average wt-link_theme_dark">IDEs</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/products/#tech=dotnet" class="wt-link wt-link_hardness_average wt-link_theme_dark">.NET &amp; Visual Studio</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/products/#type=team" class="wt-link wt-link_hardness_average wt-link_theme_dark">Team Tools</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://plugins.jetbrains.com/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Plugins</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/edu-products/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Education</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/products/#type=language" class="wt-link wt-link_hardness_average wt-link_theme_dark">Languages</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/products/" class="wt-link wt-link_hardness_average wt-link_theme_dark">All products</a></li></ul></li><li class="jb-footer-catalog__item wt-offset-top-48 wt-col-2 wt-col-md-4 wt-col-sm-6"><h2 class="jb-footer-catalog__item-title wt-text-3 wt-text-3_hardness_hard wt-text-3_theme_dark">Solutions</h2><ul class="wt-offset-top-12 jb-footer-catalog-links"><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/cpp/" class="wt-link wt-link_hardness_average wt-link_theme_dark">C++ Tools</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/data-tools/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Data Tools</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/devops/" class="wt-link wt-link_hardness_average wt-link_theme_dark">DevOps</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/education/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Education</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/gamedev/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Game Development</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/space/solutions/software-teams/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Software Development</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/store/business/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Tools For Business</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/quality-assurance-solutions/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Quality Assurance</a></li></ul></li><li class="jb-footer-catalog__item wt-offset-top-48 wt-col-2 wt-col-md-4 wt-col-sm-6"><h2 class="jb-footer-catalog__item-title wt-text-3 wt-text-3_hardness_hard wt-text-3_theme_dark">Initiatives</h2><ul class="wt-offset-top-12 jb-footer-catalog-links"><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/opensource/kotlin/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Kotlin</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/lp/mono/" class="wt-link wt-link_hardness_average wt-link_theme_dark">JetBrains Mono</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/research/" class="wt-link wt-link_hardness_average wt-link_theme_dark">JetBrains Research</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/opensource/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Open Source Projects</a></li></ul></li><li class="jb-footer-catalog__item wt-offset-top-48 wt-col-2 wt-col-md-4 wt-col-sm-6"><h2 class="jb-footer-catalog__item-title wt-text-3 wt-text-3_hardness_hard wt-text-3_theme_dark">Community</h2><ul class="wt-offset-top-12 jb-footer-catalog-links"><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/community/education/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Academic Licensing</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/community/opensource/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Open Source Support</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/community/user-groups/" class="wt-link wt-link_hardness_average wt-link_theme_dark">User Groups</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/community/events-partnership/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Events Partnership</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/community/dev-recognition/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Developer Recognition</a></li></ul></li><li class="jb-footer-catalog__item wt-offset-top-48 wt-col-2 wt-col-md-4 wt-col-sm-6"><h2 class="jb-footer-catalog__item-title wt-text-3 wt-text-3_hardness_hard wt-text-3_theme_dark">Resources</h2><ul class="wt-offset-top-12 jb-footer-catalog-links"><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/support/sales/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Sales Support</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/support/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Product Support</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://sales.jetbrains.com/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Licensing FAQ</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/help/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Documentation</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/resources/eap/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Early Access</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/company/events/webinars/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Events and Webinars</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/resources/newsletters/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Newsletters</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/resources/industry-reports/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Industry Reports</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://blog.jetbrains.com/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Blog</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/company/brand/desktop-art/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Desktop Art</a></li></ul></li><li class="jb-footer-catalog__item wt-offset-top-48 wt-col-2 wt-col-md-4 wt-col-sm-6"><h2 class="jb-footer-catalog__item-title wt-text-3 wt-text-3_hardness_hard wt-text-3_theme_dark">Company</h2><ul class="wt-offset-top-12 jb-footer-catalog-links"><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/company/" class="wt-link wt-link_hardness_average wt-link_theme_dark">About</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/company/contacts/#headquarters-international-sales" class="wt-link wt-link_hardness_average wt-link_theme_dark">Contacts</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/careers/apply/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Careers</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/company/press/" class="wt-link wt-link_hardness_average wt-link_theme_dark">News</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/company/customers/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Customers &amp; Awards</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/company/brand/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Brand Assets</a></li><li class="jb-footer-catalog-links__item wt-text-3 wt-text-3_flow wt-text-3_theme_dark"><a href="https://www.jetbrains.com/company/partners/" class="wt-link wt-link_hardness_average wt-link_theme_dark">Partners and Resellers</a></li></ul></li></ul></div><div class="wt-footer__main"><div class="wt-footer__social wt-offset-top-24 wt-offset-top-sm-32"><div class="wt-social-list wt-row wt-row_size_xs" data-test="social-list"><a data-test="button" title="JetBrains on Facebook" href="https://www.facebook.com/JetBrains" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m wt-text-3 wt-text-3_hardness_average wt-text-3_theme_dark _wt-button__icon_1df2673_609"><path d="M21 12a9 9 0 10-10.41 8.89V14.6H8.31V12h2.28v-2A3.18 3.18 0 0114 6.52a14.32 14.32 0 012 .17v2.22h-1.13a1.29 1.29 0 00-1.46 1.4V12h2.49l-.4 2.6h-2.09v6.29A9 9 0 0021 12z"></path></svg></a><a data-test="button" title="JetBrains on Twitter" href="https://twitter.com/jetbrains" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m wt-text-3 wt-text-3_hardness_average wt-text-3_theme_dark _wt-button__icon_1df2673_609"><path d="M8.29 20.25A11.59 11.59 0 0020 8.78v-.73a8.3 8.3 0 002-2.13 8.36 8.36 0 01-2.36.65 4.16 4.16 0 001.81-2.27 8.19 8.19 0 01-2.61 1 4.11 4.11 0 00-7 3.75 11.7 11.7 0 01-8.45-4.3 4.11 4.11 0 001.27 5.48 4.06 4.06 0 01-1.86-.52 4.11 4.11 0 003.29 4 4.13 4.13 0 01-1.85.07 4.12 4.12 0 003.83 2.85A8.25 8.25 0 013 18.47a7.929 7.929 0 01-1-.06 11.69 11.69 0 006.29 1.84"></path></svg></a><a data-test="button" title="JetBrains on LinkedIn" href="https://www.linkedin.com/company/jetbrains" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m wt-text-3 wt-text-3_hardness_average wt-text-3_theme_dark _wt-button__icon_1df2673_609"><path d="M19.668 3H4.328a1.313 1.313 0 00-1.327 1.298v15.403A1.314 1.314 0 004.33 21h15.34A1.317 1.317 0 0021 19.701V4.298a1.316 1.316 0 00-1.332-1.297zM8.34 18.339H5.668v-8.59H8.34zM7.005 8.575a1.548 1.548 0 111.547-1.548 1.547 1.547 0 01-1.547 1.548zm11.334 9.763h-2.67v-4.177c0-.996-.016-2.278-1.387-2.278-1.389 0-1.6 1.086-1.6 2.207v4.248h-2.667v-8.59h2.559v1.175h.037a2.804 2.804 0 012.525-1.388c2.703 0 3.203 1.779 3.203 4.092z"></path></svg></a><a data-test="button" title="JetBrains on YouTube" href="https://www.youtube.com/user/JetBrainsTV" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m wt-text-3 wt-text-3_hardness_average wt-text-3_theme_dark _wt-button__icon_1df2673_609"><path d="M21.79993,7.7356a4.80987,4.80987,0,0,0-.79456-2.1189,2.75914,2.75914,0,0,0-2.00378-.9021c-2.799-.217-6.9972-.217-6.9972-.217H11.995s-4.19812,0-6.99659.217a2.75983,2.75983,0,0,0-2.00378.9021,4.81806,4.81806,0,0,0-.79456,2.1189A34.36132,34.36132,0,0,0,2,11.18787v1.618a34.35272,34.35272,0,0,0,.20007,3.45288,4.8,4.8,0,0,0,.79456,2.11694,3.27043,3.27043,0,0,0,2.20508.91211C6.79956,19.45166,12,19.50232,12,19.50232s4.20264-.00745,7.00159-.22192a2.77147,2.77147,0,0,0,2.00378-.90406,4.80739,4.80739,0,0,0,.79456-2.11682A34.37352,34.37352,0,0,0,22,12.8064V11.18848A34.36535,34.36535,0,0,0,21.79993,7.7356ZM9.50232,15.75122V8.24878L15.75427,12Z"></path></svg></a><a data-test="button" title="JetBrains on Instagram" href="https://www.instagram.com/jetbrains/" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m wt-text-3 wt-text-3_hardness_average wt-text-3_theme_dark _wt-button__icon_1df2673_609"><path d="M16.3 5c1.4 0 2.6 1.2 2.6 2.6v8.8c0 1.4-1.2 2.6-2.6 2.6H7.6C6.2 19 5 17.8 5 16.4V7.6C5 6.2 6.1 5 7.6 5h8.7m0-2H7.6C5 3 3 5.1 3 7.6v8.8C3 18.9 5.1 21 7.6 21h8.8c2.5 0 4.6-2.1 4.6-4.6V7.6C20.9 5.1 18.9 3 16.3 3z"></path><circle cx="12" cy="12.4" r="3.2"></circle><circle cx="16.1" cy="7.7" r="1.3"></circle></svg></a><a data-test="button" title="JetBrains blog" href="https://blog.jetbrains.com/" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m wt-text-3 wt-text-3_hardness_average wt-text-3_theme_dark _wt-button__icon_1df2673_609"><circle cx="12.042" cy="4" r="2"></circle><path d="M18.339 7a6.982 6.982 0 0 0-6.3 4 6.982 6.982 0 0 0-6.3-4H3v10h2.739a6.983 6.983 0 0 1 6.3 4 6.582 6.582 0 0 1 6-4.033h2.994L21 7z"></path></svg></a><a data-test="button" title="JetBrains RSS Feed" href="https://blog.jetbrains.com/feed/" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 _wt-button_without-text_1df2673_138 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m wt-text-3 wt-text-3_hardness_average wt-text-3_theme_dark _wt-button__icon_1df2673_609"><path d="m4.1 4v2.2c7.5.6 13.4 6.5 14.2 13.9h2.2c-.8-8.6-7.7-15.5-16.4-16.1z"></path><path d="m4.1 10v2.2c4.2.5 7.5 3.8 8.2 7.9h2.2c-.7-5.3-5-9.6-10.4-10.1z"></path><path d="m5.7 16.5c-1.2 0-2.2 1-2.2 2.2s1 2.2 2.2 2.2 2.2-1 2.2-2.2-1-2.2-2.2-2.2z"></path></svg></a></div></div><div class="wt-footer__region wt-offset-top-24 wt-offset-top-sm-24"><div class="wt-row wt-row_size_s"><button data-test="footer-country-button" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_s_1df2673_106 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m _wt-button__icon_1df2673_609"><path d="M12 3a9 9 0 1 0 9 9 9.01 9.01 0 0 0-9-9zm1.78 15.762L11 15.764A2.989 2.989 0 0 0 9 15H5.685A6.96 6.96 0 0 1 13 5.08V7a2 2 0 0 1-2 2h-1a2 2 0 0 0 0 4h4a2.476 2.476 0 0 1 2 1 24.497 24.497 0 0 0 1.84 1.85 7.017 7.017 0 0 1-4.06 2.912z"></path></svg>India</button><span data-test="dropdown-trigger" class="_wt-dropdown__trigger-wrapper_1ot6ciw_11"><button data-test="language-picker" type="button" class="_wt-button_1df2673_1 _wt-button_mode_nude_1df2673_533 _wt-button_size_m_1df2673_96 _wt-button_theme_dark_1df2673_81 _wt-button_with-icon_1df2673_161 wt-button_align-icon_left wt-col-inline"><svg viewBox="0 0 24 24" class="wt-icon wt-icon_size_m _wt-button__icon_1df2673_609"><path d="m11.62965 16.61452c-1.13922-.692-3.111-2.36313-3.153-2.32718a28.32942 28.32942 0 0 1 -3.30095 2.26177c-.68823.39708-1.38892.49615-1.82064-.09139a.992.992 0 0 1 .26656-1.40406c.00852-.00391 2.44665-1.594 3.25973-2.29678a11.64387 11.64387 0 0 1 -2.23281-3.53521 1.07774 1.07774 0 0 1 .52716-1.36835c.52715-.22205 1.049-.12664 1.48663.61989a10.33341 10.33341 0 0 0 1.8143 2.89517 10.853 10.853 0 0 0 2.1563-4.3469l-7.63293-.02148v-2.00685h4.8124v-.99406a.98574.98574 0 1 1 1.9713 0v.99406h5.1703v2.00685h-2.08646a17.03869 17.03869 0 0 1 -2.64065 5.75689 15.88157 15.88157 0 0 0 2.30149 1.66068l2.3092-5.66617a1.162 1.162 0 0 1 2.1802.01591l3.01041 7.389 1.85638 4.385h-2.47393l-1.08252-2.53924h-4.84082l-.888 2.53924h-2.5993l.287-.69166zm4.31307-5.16715-1.67531 4.55419h3.35059z"></path></svg>English</button></span></div></div><div class="wt-footer__legal wt-offset-top-24 wt-offset-top-sm-12"><div class="wt-row wt-row_size_s wt-text-3 wt-text-3_theme_dark"><a href="https://www.jetbrains.com/privacy-security/" class="wt-link wt-link_hardness_average wt-link_theme_dark wt-col-inline" rel="">Privacy &amp; Security</a><a href="https://www.jetbrains.com/legal/docs/company/useterms.html" class="wt-link wt-link_hardness_average wt-link_theme_dark wt-col-inline" rel="">Terms of Use</a><a href="https://www.jetbrains.com/legal/trademarks/" class="wt-link wt-link_hardness_average wt-link_theme_dark wt-col-inline" rel="">Trademarks</a><a href="https://www.jetbrains.com/legal/" class="wt-link wt-link_hardness_average wt-link_theme_dark wt-col-inline" rel="">Legal</a><a href="https://www.jetbrains.com/genuine-tools/" class="wt-link wt-link_hardness_average wt-link_theme_dark wt-col-inline" rel="">Genuine Tools</a></div></div><div class="wt-footer__copyright wt-offset-top-24 wt-offset-top-sm-12"><span class="wt-text-3 wt-text-3_hardness_pale wt-text-3_theme_dark">Copyright © 2000-2022 JetBrains s.r.o.</span></div><div class="wt-footer__motto wt-offset-top-24 wt-offset-top-sm-0"><span class="wt-text-3 wt-text-3_hardness_pale wt-text-3_theme_dark">Developed with drive and <a href="https://jetbrains.com/idea" class="wt-link wt-link_hardness_pale wt-link_theme_dark">IntelliJ IDEA</a></span></div></div></div></footer></div>
+    </div>
+
+<script>
+(function () {
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+  function updateQueryStringParameter(uri, key, value) {
+    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+    var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+    if (uri.match(re)) {
+      return uri.replace(re, '$1' + key + "=" + value + '$2');
+    }
+    else {
+      return uri + separator + key + "=" + value;
+    }
+  }
+
+  var downloadLink = document.getElementById("download-link");
+  if (downloadLink != null) {
+    var platform = getParameterByName('platform');
+    platform = platform != null ? platform : "windows";
+    var href = downloadLink.getAttribute("href");
+    var code = getParameterByName("code");
+
+    if(code != null) {
+      href = updateQueryStringParameter(href, "code", code)
+    }
+    href = updateQueryStringParameter(href, "platform", platform);
+    downloadLink.setAttribute("href", href);
+  }
+})();
+</script><script>
+(function() {
+  var STORAGE_KEY_NAME = 'firefoxDisappearedSVGWorkaround';
+  var STORAGE_KEY_VALUE = '1';
+
+  var isFirefox = /firefox/i.test(navigator.userAgent);
+  if (!isFirefox || isFirefox && sessionStorage.getItem(STORAGE_KEY_NAME) === STORAGE_KEY_VALUE) {
+    return;
+  }
+
+  var arrayFrom = function (arrayLike) {
+    return Array.prototype.slice.call(arrayLike, 0);
+  };
+
+  function workaround() {
+    var uses = document.querySelectorAll('.page svg use');
+    var badNodesCount = 0;
+
+    arrayFrom(uses).forEach(function (node) {
+      var rect = node.getBoundingClientRect();
+      if (rect.width === 0 && rect.height === 0)
+        badNodesCount++;
+    });
+
+    if (badNodesCount === uses.length) {
+      sessionStorage.setItem(STORAGE_KEY_NAME, STORAGE_KEY_VALUE);
+      if (typeof dataLayer !== 'undefined')
+        dataLayer.push({'firefoxDisappearedSVGWorkaround': STORAGE_KEY_VALUE});
+
+      window.location.replace(window.location.href);
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', workaround);
+
+})();
+</script>          <link href="./JetBrains_ Essential tools for software developers and teams_files/banner-rotator.entry.869c5f1a8b1d0fe5778c.css" rel="stylesheet" type="text/css">
+      <script src="./JetBrains_ Essential tools for software developers and teams_files/banner-rotator.entry.1d57dc43961cec014b94.js" type="text/javascript"></script>
+      
+      
+  <script>
+(function () {
+
+  'use strict';
+
+  function ImagesSrcReplacer () {
+
+    var attribute = 'data-src';
+    var matches = document.querySelectorAll('img[' + attribute + ']');
+
+    for (var i = 0, n = matches.length; i < n; i++) {
+
+      var attrValue = matches[i].getAttribute(attribute);
+
+      if (_isHighDensity ()) {
+
+        var name = attrValue.substring(0, attrValue.lastIndexOf('.'));
+        var extention = attrValue.substring(attrValue.lastIndexOf('.'), attrValue.length);
+
+        matches[i].setAttribute('src', name + '@2x' + extention);
+
+      } else {
+        matches[i].setAttribute('src', attrValue)
+      }
+    }
+
+    /**
+     * Detect high density
+     * @returns {*|boolean}
+     */
+    function _isHighDensity () {
+      return (
+      (window.matchMedia &&
+      (window.matchMedia('only screen and (min-resolution: 124dpi), only screen and (min-resolution: 1.3dppx), only screen and (min-resolution: 48.8dpcm)').matches ||
+       window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 2.6/2), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (min-device-pixel-ratio: 1.3)').matches)) ||
+      (window.devicePixelRatio &&
+       window.devicePixelRatio > 1.3));
+    }
+  }
+
+  return new ImagesSrcReplacer()
+
+}(document, window));
+</script>
+
+<script type="text/javascript" id="">var separator="|",firstCookieName="first_utm_parameters",lastCookieName="last_utm_parameters",cookieValue="",undefinedCookieValue="undefined"+separator+"undefined"+separator+"undefined";function getCookie(a){return(a=document.cookie.match(new RegExp("(?:^|; )"+a.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"\x3d([^;]*)")))?a[1]:void 0}
+function setCookie(a,c){var d=31104E6,b=new Date,e=b.getTime();b.setTime(e+d);b=b.toUTCString();document.cookie=a+"\x3d"+c+"; SameSite\x3dNone; Secure; expires\x3d"+b+"; path\x3d/; domain\x3d."+location.hostname.replace(/^www\./i,"")}cookieValue=google_tag_manager["GTM-5P98"].macro(5)||google_tag_manager["GTM-5P98"].macro(6)||google_tag_manager["GTM-5P98"].macro(7)?google_tag_manager["GTM-5P98"].macro(8)+separator+google_tag_manager["GTM-5P98"].macro(9)+separator+google_tag_manager["GTM-5P98"].macro(10):google_tag_manager["GTM-5P98"].macro(11)+separator+google_tag_manager["GTM-5P98"].macro(12)+separator+google_tag_manager["GTM-5P98"].macro(13);
+if(cookieValue!=undefinedCookieValue){var first_cookie_value=getCookie(firstCookieName);first_cookie_value&&first_cookie_value!=undefinedCookieValue||setCookie(firstCookieName,cookieValue);setCookie(lastCookieName,cookieValue)};</script><script type="text/javascript" id="">window.dataLayer=window.dataLayer||[];window.dataLayer.push({originalLocation:document.location.protocol+"//"+document.location.hostname+document.location.pathname+document.location.search});</script><script type="text/javascript" id="">window.dataLayer=window.dataLayer||[];dataLayer.push({event:"promotionView",ecommerce:{promoView:{promotions:[{id:"JS-14539",name:"Home Banners",creative:google_tag_manager["GTM-5P98"].macro(22),position:"tile"}]}}});</script><script type="text/javascript" id="">window.dataLayer=window.dataLayer||[];dataLayer.push({event:"promotionView",ecommerce:{promoView:{promotions:[{id:"JS-14539",name:"Home Banners",creative:google_tag_manager["GTM-5P98"].macro(28),position:"tile"}]}}});</script><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="./JetBrains_ Essential tools for software developers and teams_files/box-21ccaa45726c0f3c8c458f7a87eb2298.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">function checkCookieEnabled(){if(navigator.cookieEnabled)return!0;document.cookie="cookietest\x3d1";var b=-1!==document.cookie.indexOf("cookietest\x3d");document.cookie="cookietest\x3d1; expires\x3dThu, 01-Jan-1970 00:00:01 GMT";return b}
+(function(){var b="jb_cookies_consent_closed";if(checkCookieEnabled()&&-1===document.cookie.indexOf(b)&&-1===document.cookie.indexOf("adConsent")){var a=document.createElement("link");a.setAttribute("rel","stylesheet");a.setAttribute("href","https://resources.jetbrains.com/storage/ui/cookies-banner.css");document.body.appendChild(a);a=document.createElement("script");a.setAttribute("src","https://resources.jetbrains.com/storage/ui/cookies-banner.js");document.body.appendChild(a);var c={cookieNameToSetOnClose:b,
+closeSign:!0,position:"right",offset:10};a.onload=function(){setTimeout(function(){new window.JetBrainsCookieGDPRBanner(document.body,c)},4E3)}}})();</script><script type="text/javascript" id="">setTimeout(function(){if(window.google_tag_manager&&window.location.search&&-1===window.location.href.indexOf("/shop/")&&-1===window.location.href.indexOf("/resellers/")){window.dataLayer=window.dataLayer||[];var a=/(&|\?)(var|theme|_ga|_gac|_gl|fbclid|msclkid|twclid|mkt_tok|do_not_cache|gtm_[^&]*|utm_[^&]*)(=[^&|#]*)/g;window.location.search&&(a=window.location.search.replace(a,""),"\x26"===a[0]&&(a=a.replace("\x26","")),"?"===a[0]&&(a=a.replace("?","")),a=a?"?"+a:"",window.history.replaceState(null,
+null,window.location.protocol+"//"+window.location.host+window.location.pathname+a+window.location.hash))}},2E3);</script></body></html>

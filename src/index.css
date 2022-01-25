@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+:root{
+    --grayishBlue: #9194a1;
+    --whiteColour-60:hsla(0,0%,100%,0.6);
+    --lightBlue:rgba(76,166,255,0.8);
+    --whiteColour-30:hsla(0,0%,100%,0.3);
+    --darkishblue:rgba(22,125,255,0.2);
+    --lighterBlue:#167dff;
+
+    
+  
+}
+
+
+
