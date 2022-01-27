@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 body {
@@ -16,10 +15,7 @@ body {
     --lightBlue:rgba(76,166,255,0.8);
     --whiteColour-30:hsla(0,0%,100%,0.3);
     --darkishblue:rgba(22,125,255,0.2);
-    --lighterBlue:#167dff;
-
-    
-  
+    --lighterBlue:#167dff;     
 }
 
 

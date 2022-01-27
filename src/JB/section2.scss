@@ -1,0 +1,337 @@
+.section2-logo_container {
+	padding: 2rem 19rem;
+	.section2-logo_text {
+		h4 {
+			font-weight: lighter;
+			font-size: 1.8rem;
+			width: 32rem;
+			color: #19191c;
+		}
+	}
+	.section2-logo_logos {
+		padding: 3rem 0;
+		display: flex;
+	}
+}
+.section2-logo_logos {
+	.google_logo {
+		img {
+			width: 10rem;
+			height: 4rem;
+			margin-top: 1rem;
+		}
+	}
+	.nasa_logo {
+		img {
+			width: 7.5rem;
+			height: 5.5rem;
+			margin-left: 5rem;
+		}
+	}
+	.valve_logo {
+		img {
+			width: 11rem;
+			height: 6rem;
+			margin-left: 4rem;
+		}
+	}
+	.netflix_logo {
+		img {
+			width: 10rem;
+			height: 4.5rem;
+			margin-left: 4rem;
+			margin-top: 1rem;
+		}
+	}
+	.ubisoft_logo {
+		img {
+			width: 10rem;
+			height: 3rem;
+			margin-left: 4rem;
+			margin-top: 1.3rem;
+		}
+	}
+	.twitter_logo {
+		img {
+			width: 7rem;
+			height: 4rem;
+			margin-left: 4rem;
+			margin-top: 1.35rem;
+		}
+	}
+}
+.customer_container {
+	padding: 1rem 19rem 7rem 19rem;
+	h2 {
+		font-size: 2.5rem;
+	}
+	p {
+		font-size: 1.78rem;
+		width: 40rem;
+		color: #19191c;
+		padding: 2rem 0;
+	}
+	.customer_cards {
+		display: flex;
+		margin-bottom: 2rem;
+		h3 {
+			font-size: 1.35rem;
+		}
+		p {
+			font-size: 1.05rem;
+			width: 19.8rem;
+			line-height: 1.3rem;
+			padding: 1rem 0;
+		}
+		h5 {
+			font-weight: lighter;
+			font-size: 1rem;
+			width: 18rem;
+			line-height: 1.4rem;
+			color: lightslategray;
+		}
+		h6 {
+			color: var(--lighterBlue);
+			text-decoration: none;
+			font-size: 1.09rem;
+			margin-top: 2rem;
+			font-weight: lighter;
+			&:hover {
+				text-decoration: underline;
+				color: lightslategray;
+			}
+		}
+	}
+}
+.customer_cards {
+	.cust_card1 {
+		padding: 1.8rem;
+		border: 1px solid lightgray;
+	}
+	.cust_card2 {
+		padding: 1.8rem;
+		border: 1px solid lightgray;
+		margin-left: 2rem;
+		h6 {
+			margin-top: 6rem;
+		}
+	}
+	.cust_card3 {
+		padding: 1.8rem;
+		border: 1px solid lightgray;
+		margin-left: 2rem;
+		h6 {
+			margin-top: 6rem;
+		}
+	}
+}
+.case-study_btn {
+	button {
+		font-size: 1.08rem;
+		border-radius: 4rem;
+		border: 1px solid grey;
+		transition: 0.4s ease;
+		width: 12.5rem;
+		height: 3rem;
+		color: black;
+		background-color: white;
+		&:hover {
+			cursor: pointer;
+			background-color: lightgray;
+		}
+	}
+}
+.discover_container {
+	background-color: #f4f4f4;
+	padding: 5rem 19rem;
+	h2 {
+		font-size: 2.5rem;
+		margin-bottom: 5rem;
+	}
+	.discover_cards {
+		display: flex;
+	}
+}
+.discover_cards {
+	img {
+		width: auto;
+		height: 4.7rem;
+	}
+	h3 {
+		font-size: 1.23rem;
+		width: 16rem;
+		margin-top: 1.5rem;
+		justify-content: space-between;
+		line-height: 1.5rem;
+	}
+	p {
+		color: gray;
+		font-size: 1rem;
+		width: 16rem;
+		margin-top: 1rem;
+		line-height: 1.4rem;
+	}
+	h6 {
+		font-size: 1.09rem;
+		color: var(--lighterBlue);
+		margin-top: 1rem;
+		font-weight: lighter;
+		&:hover {
+			cursor: pointer;
+			text-decoration: underline;
+			color: var(--lighterBlue);
+		}
+	}
+	.dis_card2 {
+		margin-left: 10rem;
+		h3 {
+			width: 12rem;
+		}
+	}
+	.dis_card3 {
+		margin-left: 10rem;
+		h3 {
+			width: 21rem;
+		}
+	}
+}
+@media (max-width:768px) {
+	.section2-logo_container {
+		padding: 2rem 1rem;
+		.section2-logo_text {
+			h4 {
+				font-size: 1.5rem;
+				width: 21rem;
+			}
+		}
+		.section2-logo_logos {
+			padding: 3rem 0;
+			flex-wrap: wrap;
+			display: flex;
+		}
+	}
+	.section2-logo_logos {
+		.google_logo {
+			img {
+				width: 8rem;
+				height: 3rem;
+				margin-left: 1.5rem;
+			}
+		}
+		.nasa_logo {
+			img {
+				width: 7rem;
+				height: 5rem;
+				margin-left: 3.5rem;
+			}
+		}
+		.valve_logo {
+			img {
+				width: 10rem;
+				height: 5.5rem;
+				margin-left: 1rem;
+			}
+		}
+		.netflix_logo {
+			img {
+				width: 7rem;
+				height: 4rem;
+				margin-left: 3rem;
+			}
+		}
+		.ubisoft_logo {
+			img {
+				width: 8rem;
+				height: 2.5rem;
+				margin-left: 1.8rem;
+			}
+		}
+		.twitter_logo {
+			img {
+				width: 6.5rem;
+				height: 4rem;
+				margin-left: 5rem;
+			}
+		}
+	}
+	.customer_container {
+		padding: 1rem 1rem;
+		h2 {
+			font-size: 2.15rem;
+		}
+		p {
+			font-size: 1.55rem;
+			width: 20rem;
+		}
+		.customer_cards {
+			display: grid;
+			margin-bottom: 1rem;
+			h3 {
+				font-size: 1.3rem;
+			}
+			p {
+				font-size: 1.05rem;
+				width: 19rem;
+				line-height: 1.45rem;
+				padding: 1rem 0;
+			}
+			h6 {
+				margin-top: 1rem;
+			}
+		}
+	}
+	.customer_cards {
+		.cust_card1 {
+			padding: 1rem;
+		}
+		.cust_card2 {
+			margin-left: 0.1rem;
+			margin-top: 1rem;
+			padding: 1rem;
+			h6 {
+				margin-top: 1rem;
+			}
+		}
+		.cust_card3 {
+			margin-left: 0.1rem;
+			margin-top: 1rem;
+			padding: 1rem;
+			h6 {
+				margin-top: 1rem;
+			}
+		}
+	}
+	.case-study_btn {
+		button {
+			font-size: 1.05rem;
+			width: 12rem;
+		}
+	}
+	.discover_container {
+		padding: 3.5rem 1rem;
+		h2 {
+			font-size: 2.2rem;
+			margin-bottom: 2.2rem;
+		}
+		.discover_cards {
+			display: grid;
+		}
+	}
+	.discover_cards {
+		img {
+			width: auto;
+			height: 4.5rem;
+		}
+		h3 {
+			margin-top: 0.6rem;
+		}
+		.dis_card2 {
+			margin-left: 0.1rem;
+			margin-top: 2.5rem;
+		}
+		.dis_card3 {
+			margin-left: 0.1rem;
+			margin-top: 2.5rem;
+		}
+	}
+}

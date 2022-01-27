@@ -1,0 +1,543 @@
+.header-main_container {
+	background-color: #343434;
+}
+.header_menu {
+	padding: 5rem 19rem;
+	padding-top: 0;
+	display: flex;
+}
+.jb_logo {
+	width: 4.5rem;
+	height: auto;
+	img {
+		width: 100%;
+	}
+}
+.menu_item {
+	width: 65%;
+	margin: 1.5rem auto 0 19rem;
+	justify-content: space-between;
+	ul {
+		display: flex;
+		list-style: none;
+	}
+	li {
+		a {
+			text-decoration: none;
+			font-size: 1.2rem;
+			color: var(--grayishBlue);
+			transition: 0.2s ease;
+			font-weight: 400;
+			&:hover {
+				color: white;
+				cursor: pointer;
+			}
+		}
+	}
+}
+.menu_tools {
+	display: flex;
+	width: 55rem;
+	justify-content: space-between;
+}
+.search_menu {
+	width: 2rem;
+	height: auto;
+	margin-left: 1.5rem;
+	img {
+		width: 100%;
+	}
+}
+.contact_cart {
+	display: flex;
+	margin-left: 2rem;
+}
+.contact_menu {
+	width: 1.3rem;
+	height: auto;
+	img {
+		width: 100%;
+	}
+}
+.cart_menu {
+	width: 2.6rem;
+	height: auto;
+	padding-left: 1.2rem;
+	img {
+		width: 100%;
+	}
+}
+.language_menu {
+	width: 2.45rem;
+	height: auto;
+	padding-left: 1.2rem;
+	img {
+		width: 100%;
+	}
+}
+.menu_hamburger {
+	display: none;
+}
+.header_text {
+	padding: 0.5rem 19rem;
+}
+.title_text {
+	.title_1 {
+		color: white;
+		letter-spacing: -.001em;
+		width: 55rem;
+		font-size: 2.8rem;
+	}
+	.title_2 {
+		color: white;
+		font-size: 2rem;
+		margin-top: 1rem;
+		font-weight: 300;
+	}
+}
+.header_tools {
+	display: flex;
+	margin-top: 2.5rem;
+}
+.developer_tool {
+	display: grid;
+	text-align: start;
+}
+.tool_img {
+	width: 1.5rem;
+	height: 1.5rem;
+	img {
+		width: 100%;
+	}
+}
+.img_title {
+	display: flex;
+}
+.tool_title {
+	padding-left: 1rem;
+	color: white;
+}
+.tool_subT {
+	margin-top: 1rem;
+	color: var(--whiteColour-60);
+	font-size: 1.25rem;
+	letter-spacing: .025em;
+	line-height: 1.8rem;
+	width: 20rem;
+}
+.tool_link {
+	margin-top: 0.8rem;
+	a {
+		text-decoration: none;
+		color: var(--lightBlue);
+		letter-spacing: .011em;
+		font-size: 1.2rem;
+		&:hover {
+			text-decoration: underline;
+			text-decoration-color: var(--lightBlue);
+			cursor: pointer;
+		}
+	}
+}
+.team_tool {
+	padding-left: 0.6rem;
+}
+.learning_tool {
+	padding-left: 0.6rem;
+}
+.kotlin_tool {
+	padding-left: 0.6rem;
+}
+.header_row {
+	margin-top: 3rem;
+	display: flex;
+	margin-bottom: 4rem;
+	.row_col1 {
+		img {
+			width: 93%;
+			border-radius: 1rem;
+			height: 38rem;
+		}
+		position: relative;
+	}
+	.row_col2 {
+		position: relative;
+	}
+}
+.row_col1 {
+	.col1_para1 {
+		position: absolute;
+		color: white;
+		bottom: 16rem;
+		left: 3rem;
+		font-size: 1.9rem;
+		font-family: sans-serif;
+		width: 35rem;
+	}
+	.col1_para2 {
+		position: absolute;
+		color: white;
+		bottom: 12rem;
+		left: 3rem;
+		font-size: 1.2rem;
+		font-family: sans-serif;
+		width: 20rem;
+	}
+	.col1_btn {
+		button {
+			position: absolute;
+			font-size: 1.1rem;
+			border-radius: 4rem;
+			bottom: 5rem;
+			left: 3rem;
+			border: 1px solid white;
+			transition: 0.4s ease;
+			width: 9rem;
+			height: 3rem;
+			&:hover {
+				cursor: pointer;
+				background-color: var(--grayishBlue);
+				border: 1px solid var(--grayishBlue);
+			}
+		}
+	}
+}
+.row_col2 {
+	.col2_banner1 {
+		.banner1_image {
+			position: relative;
+			width: 20rem;
+			right: 2.8rem;
+			img {
+				width: 25rem;
+				border-radius: 1.3rem;
+				height: 18.5rem;
+			}
+		}
+		button {
+			position: absolute;
+			font-size: 1rem;
+			border-radius: 4rem;
+			bottom: 22rem;
+			border: 0.6px solid var(--whiteColour-60);
+			color: white;
+			background-color: var(--whiteColour-30);
+			transition: 0.6s ease;
+			width: 7rem;
+			height: 2.5rem;
+			&:hover {
+				cursor: pointer;
+				border: 2px solid white;
+			}
+		}
+	}
+	.col2_banner2 {
+		.banner2_image {
+			position: relative;
+			width: 20rem;
+			right: 2.8rem;
+			top: 0.5rem;
+			img {
+				width: 25rem;
+				border-radius: 1.3rem;
+				height: 18.5rem;
+			}
+		}
+		button {
+			position: absolute;
+			font-size: 1rem;
+			border-radius: 4rem;
+			bottom: 3rem;
+			border: 0.6px solid var(--whiteColour-60);
+			color: white;
+			background-color: var(--darkishblue);
+			transition: 0.6s ease;
+			width: 7rem;
+			height: 2.5rem;
+			&:hover {
+				cursor: pointer;
+				border: 2px solid white;
+			}
+		}
+	}
+}
+.col2_banner1 {
+	.academy_logo {
+		position: absolute;
+		width: 5rem;
+		height: 5rem;
+		display: flex;
+		top: 2.5rem;
+		img {
+			width: 2rem;
+			height: 2rem;
+		}
+	}
+	.banner1_para1 {
+		position: absolute;
+		color: white;
+		bottom: 29.5rem;
+		font-size: 1.1rem;
+		font-family: sans-serif;
+		width: 18rem;
+	}
+	.banner1_para2 {
+		position: absolute;
+		color: white;
+		bottom: 26rem;
+		font-size: 1rem;
+		font-family: sans-serif;
+		width: 20rem;
+		line-height: 1.3rem;
+	}
+}
+.col2_banner2 {
+	.space_image {
+		position: absolute;
+		width: 5rem;
+		height: 5rem;
+		display: flex;
+		top: 22rem;
+		img {
+			width: 2rem;
+			height: 2rem;
+		}
+		h3 {
+			color: white;
+			padding-left: 1rem;
+			font-weight: bolder;
+			font-size: 2.2rem;
+			margin-bottom: 1rem;
+		}
+	}
+	.banner2_para1 {
+		position: absolute;
+		color: white;
+		bottom: 10rem;
+		font-size: 1.1rem;
+		font-family: sans-serif;
+		width: 18rem;
+	}
+	.banner2_para2 {
+		position: absolute;
+		color: white;
+		bottom: 7rem;
+		font-size: 1rem;
+		font-family: sans-serif;
+		width: 20rem;
+		line-height: 1.3rem;
+	}
+}
+@media (max-width:768px) {
+	.header_menu {
+		padding: 4.5rem 0rem;
+		padding-top: 0;
+		display: flex;
+	}
+	.jb_logo {
+		height: auto;
+		margin-left: 1rem;
+		img {
+			width: 3.6rem;
+		}
+	}
+	.menu_item {
+		width: 65%;
+		margin: 1.5rem auto 0 0;
+	}
+	.menu_tools {
+		display: none;
+	}
+	.search_menu {
+		width: 1.5rem;
+		height: auto;
+		margin-left: 9rem;
+		margin-top: -1rem;
+	}
+	.contact_cart {
+		display: none;
+	}
+	.menu_hamburger {
+		width: 10%;
+		display: block;
+		margin-left: 2.8rem;
+		margin-top: -1rem;
+		img {
+			width: 1.2rem;
+			height: auto;
+		}
+	}
+	.header_text {
+		padding: 0.1rem 1rem;
+		margin-top: -3rem;
+	}
+	.title_text {
+		.title_1 {
+			width: 22rem;
+			font-size: 2rem;
+		}
+		.title_2 {
+			font-size: 1.45rem;
+			margin-top: 1rem;
+			font-weight: 300;
+		}
+	}
+	.header_tools {
+		display: grid;
+		margin-top: 2.5rem;
+	}
+	.tool_subT {
+		margin-top: 1rem;
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+		width: 22rem;
+		br {
+			display: none;
+		}
+	}
+	.developer_tool {
+		display: grid;
+		text-align: start;
+		padding-left: 0.6rem;
+	}
+	.team_tool {
+		padding-left: 0.6rem;
+		padding-top: 2rem;
+	}
+	.learning_tool {
+		padding-left: 0.6rem;
+		padding-top: 2rem;
+	}
+	.kotlin_tool {
+		padding-left: 0.6rem;
+		padding-top: 2rem;
+	}
+	.header_row {
+		margin-top: 2rem;
+		display: grid;
+		margin-bottom: 2.2rem;
+		.row_col1 {
+			img {
+				width: 100%;
+				border-radius: 1rem;
+				height: 25rem;
+			}
+		}
+	}
+	.row_col1 {
+		.col1_para1 {
+			bottom: 9.5rem;
+			left: 1rem;
+			font-size: 1.3rem;
+			width: 16rem;
+		}
+		.col1_para2 {
+			bottom: 5rem;
+			left: 1rem;
+			font-size: 1.05rem;
+			width: 15rem;
+		}
+		.col1_btn {
+			button {
+				font-size: 1.05rem;
+				border-radius: 4rem;
+				bottom: 1.5rem;
+				left: 1rem;
+				width: 7rem;
+				height: 2.4rem;
+			}
+		}
+	}
+	.row_col2 {
+		.col2_banner1 {
+			.banner1_image {
+				position: relative;
+				left: -0.3rem;
+				top: 0.6rem;
+				img {
+					width: 22rem;
+					border-radius: 1.3rem;
+					height: 16rem;
+				}
+			}
+			button {
+				font-size: 1rem;
+				border-radius: 4rem;
+				bottom: 17.5rem;
+				width: 6.3rem;
+				height: 2.3rem;
+				left: 1rem;
+			}
+		}
+		.col2_banner2 {
+			.banner2_image {
+				position: relative;
+				left: -0.3rem;
+				top: 1.2rem;
+				img {
+					width: 22rem;
+					border-radius: 1.3rem;
+					height: 16rem;
+				}
+			}
+			button {
+				font-size: 1rem;
+				border-radius: 4rem;
+				bottom: 1rem;
+				width: 6.3rem;
+				height: 2.3rem;
+				left: 1rem;
+			}
+		}
+	}
+	.col2_banner1 {
+		.academy_logo {
+			width: 5rem;
+			height: 5rem;
+			display: flex;
+			top: 2.5rem;
+			left: 1rem;
+			img {
+				width: 2rem;
+				height: 2rem;
+			}
+		}
+		.banner1_para1 {
+			bottom: 24rem;
+			font-size: 1.07rem;
+			left: 1rem;
+		}
+		.banner1_para2 {
+			bottom: 20.8rem;
+			font-size: 1.03rem;
+			left: 1rem;
+		}
+	}
+	.col2_banner2 {
+		.space_image {
+			width: 5rem;
+			height: 5rem;
+			display: flex;
+			top: 19rem;
+			left: 1rem;
+			img {
+				width: 2rem;
+				height: 2rem;
+			}
+			h3 {
+				font-size: 2.1rem;
+			}
+		}
+		.banner2_para1 {
+			bottom: 7rem;
+			font-size: 1.06rem;
+			left: 1rem;
+			width: 20rem;
+		}
+		.banner2_para2 {
+			bottom: 4rem;
+			font-size: 1.03rem;
+			left: 1rem;
+		}
+	}
+}

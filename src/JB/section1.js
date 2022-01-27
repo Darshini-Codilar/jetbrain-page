@@ -1,5 +1,5 @@
 import { PureComponent } from "react";
-import './section1.css';
+import './section1.scss';
 
 class Section1 extends PureComponent {
     render() {
@@ -18,52 +18,19 @@ class Section1 extends PureComponent {
                 </div>
 
                 <div className="section1_links">
-                    <ul >
-                        <li>
-                            <a href="#" classname="li_links"><button>JavaScript</button></a>
-                        </li>
-                        <li>
-                            <a href="#" classname="li_links"><button>.NET</button></a>
-                        </li>
-                        <li>
-                            <a href="#" classname="li_links"><button>Java & JVM</button></a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="#" classname="li_links"><button>C++</button></a>
-                        </li>
-                        <li>
-                            <a href="#" classname="li_links"><button>macOS  iOS</button></a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="#" classname="li_links"><button>Python & Django</button></a>
-                        </li>
-                        <li>
-                            <a href="#" classname="li_links"><button>PHP</button></a>
-                        </li>
-                    </ul>
-                    <ul classname="ul_links2">
-                        <li>
-                            <a href="#" classname="li_links"><button>Ruby & Rails</button></a>
-                        </li>
-                        <li>
-                            <a href="#" classname="li_links"><button>Go</button></a>
-                        </li>
-                        <li>
-                            <a href="#" classname="li_links"><button>Kotlin</   button></a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="#" classname="li_links"><button>SQL</button></a>
-                        </li>
-                        <li className="last">
-                            <a href="#" classname="li_links"><button>See all tools</button></a>
-                        </li>
-                    </ul>
+                    <li><button>JavaScript</button></li>
+                    <li><button>.NET</button></li>
+                    <li><button>Java & JVM</button></li>
+                    <li> <button>C++</button></li>
+                    <li><button>macOS  iOS</button></li>
+                    <li><button>Python & Django</button></li>
+                    <li><button>PHP</button></li>
+                    <li><button>Ruby & Rails</button></li>
+                    <li><button>Go</button></li>
+                    <li><button>Kotlin</button></li>
+                    <li><button>SQL</button></li>
+                    <div className="last">
+                        <li ><button >See all tools</button></li></div>
                 </div>
                 <div className="news_events">
                     <h2>News & events</h2>
@@ -123,16 +90,13 @@ class Section1 extends PureComponent {
                     </div>
                     <div className="t-img_col2">
                         <h3>IntelliJ IDEA is undoubtedly the top-choice IDE for software developers.</h3>
-                                            <h4>Mary Grygleski</h4>
+                        <h4>Mary Grygleski</h4>
                         <p>IBM</p>
-                    </div>                    
+                    </div>
                 </div>
                 <div className="trusted_btn">
                     <button>More testimonials</button>
                 </div>
-
-
-
 
             </div>
         );
